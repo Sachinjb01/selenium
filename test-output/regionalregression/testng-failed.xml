@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regionalregression]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="comm.crm.TestingcreateOrgCont.CreatecontactTestng">
+        <methods>
+          <include name="ConfigAs"/>
+          <include name="ConfigAc"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigAm"/>
+          <include name="ConfigBM"/>
+          <include name="Createcontact"/>
+        </methods>
+      </class> <!-- comm.crm.TestingcreateOrgCont.CreatecontactTestng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [regionalregression] -->

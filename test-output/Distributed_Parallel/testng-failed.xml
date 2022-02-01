@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Distributed_Parallel]" parallel="tests">
+  <test thread-count="2" name="TestRunner-2(failed)" parallel="tests">
+    <classes>
+      <class name="TESTNGPRACTICE.CreateOrganizationTest">
+        <methods>
+          <include name="ConfigAs"/>
+          <include name="ConfigAc"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigAm"/>
+          <include name="Createorg"/>
+          <include name="ConfigBM"/>
+          <include name="CreateOrganizationwithIndustry"/>
+        </methods>
+      </class> <!-- TESTNGPRACTICE.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- TestRunner-2(failed) -->
+  <test thread-count="2" name="TestRunner-1(failed)" parallel="tests">
+    <classes>
+      <class name="TESTNGPRACTICE.CreatecontactTestng">
+        <methods>
+          <include name="ConfigAs"/>
+          <include name="ConfigAc"/>
+          <include name="Createcontact"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigAm"/>
+          <include name="ConfigBM"/>
+          <include name="createContactorg"/>
+        </methods>
+      </class> <!-- TESTNGPRACTICE.CreatecontactTestng -->
+    </classes>
+  </test> <!-- TestRunner-1(failed) -->
+</suite> <!-- Failed suite [Distributed_Parallel] -->
