@@ -83,7 +83,7 @@ public void ConfigBS()
 	public void ConfigAm()
 	{
 		Home hp=new Home(driver);
-		/*logout*/
+		/*LOGOUT*/
 		hp.logout();
 	}
 	@AfterClass(groups={"Smoke Testing","Regression Testing"})
